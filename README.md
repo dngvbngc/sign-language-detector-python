@@ -11,5 +11,5 @@ How to run:
 3. Run scripts in order:
    `python3 collect_imgs.py`
    `python3 create_dataset.py`
-   `train_classifier.py`
-   `inference_classifier.py`
+   `python3 train_classifier.py`
+   `python3 inference_classifier.py`
