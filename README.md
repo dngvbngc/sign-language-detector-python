@@ -1,5 +1,15 @@
 # sign-language-detector-python
 
-Sign language detector with Python, OpenCV and Mediapipe !
+How to run:
 
-[![Watch the video](https://img.youtube.com/vi/MJCSjXepaAM/0.jpg)](https://www.youtube.com/watch?v=MJCSjXepaAM)
+1. Create virtual env:
+   `source .venv/bin/activate`
+
+2. Install requirements:
+   `pip3 install -r requirements.txt`
+
+3. Run scripts in order:
+   `python3 collect_imgs.py`
+   `python3 create_dataset.py`
+   `train_classifier.py`
+   `inference_classifier.py`
